@@ -1,0 +1,26 @@
+#btndiv button{
+  background:black;
+}
+#signdiv button {
+  background:grey;
+  padding: px;
+}
+button{
+  color:white;
+  margin:5px;
+  padding:35px;
+  font-size:20px;
+}
+#btns{
+  width:1000px;
+
+  display:inline-block;
+}
+#total{
+  margin:100px;
+}
+#input{
+  text-align:right;
+  padding:10px 10px;
+  font-size:30px;
+}
