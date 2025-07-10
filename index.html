@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>My Calculator</title>
+</head>
+
+<body>
+ <div id="total">
+   <input id="input" type="text" readonly>
+   <div id="btns" style="display:flex;">
+     <div id="btndiv" style="background:black;">
+     <button onclick="give('7')"> 7</button>
+     <button onclick="give('8')"> 8</button>
+     <button onclick="give('9')"> 9</button>
+
+     <br>
+     <button onclick="give('4')"> 4</button>
+     <button onclick="give('5')"> 5</button>
+     <button onclick="give('6')"> 6</button>
+     
+     <br>
+     <button onclick="give('1')"> 1</button>
+     <button onclick="give('2')"> 2</button> 
+     <button onclick="give('3')"> 3</button>
+     <br>
+     <button onclick="giveresult()"> =</button>
+     <button onclick="give('.')"> .</button>
+     <button onclick="give('0')"> 0</button>
+     </div>
+    <div id="signdiv" style="background:grey;">
+     <button onclick="setOperator('/')"> /</button>
+     <button onclick="reset()"> C</button>
+     <br>
+     <button onclick="setOperator('*')">* </button>
+    <!-- <button onclick="del()"> Del</button>-->
+     <br>
+     <button onclick="setOperator('-')"> -</button> 
+     <br>
+     <button onclick=setOperator('+')> +</button>
+    </div>
+   </div>
+ </div>
+ <script src="script.js">
+   <!--Tab to edit-->
+ </script>
+</body>
+
+</html>
